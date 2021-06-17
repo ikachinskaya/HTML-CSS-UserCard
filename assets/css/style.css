@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #6f7889;
+}
+.wrapper-usercard {
+  display: inline-block;
+  border-radius: 25px;
+  width: 400px;
+  padding: 10px;
+}
+
+.usercard-header {
+  background-color: #e6ebee;
+  padding: 25px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.usercard-main,
+footer {
+  background-color: #393c45;
+  color: white;
+  padding: 20px 0px;
+}
+.usercard-image {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 auto;
+}
+.usercard-text {
+  text-align: justify;
+  line-height: 1.2;
+  margin: 25px;
+}
+
+.usercard-info {
+  display: inline-block;
+  margin: 25px;
+  text-align: center;
+}
+
+.usercard-follow,
+.usercard-message {
+  display: inline-block;
+}
+
+.btn {
+  padding: 15px 40px;
+  border-radius: 30px;
+  border:none;
+}
+.usercard-follow {
+  background-color: #556598;
+  color: white;
+  margin-left:25px;
+  margin-right:60px;
+}
+.usercard-message {
+  background-color: #e6ebef;
+  color: #393c45;
+  
+}
+.usercard-footer {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
