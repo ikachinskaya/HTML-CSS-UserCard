@@ -21,6 +21,8 @@ body {
   font-size: 36px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+}
+.usercard-title {
   overflow: hidden;
   text-overflow: ellipsis;
 }
