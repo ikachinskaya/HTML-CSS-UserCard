@@ -3,12 +3,14 @@
 }
 body {
   background-color: #6f7889;
+  line-height: 1.2;
 }
 .wrapper-usercard {
   display: inline-block;
   border-radius: 25px;
   width: 400px;
-  padding: 10px;
+  margin: 30px;
+  box-shadow: 2px 2px 5px blue;
 }
 
 .usercard-header {
@@ -19,8 +21,12 @@ body {
   font-size: 36px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-
+.usercard-info {
+  text-align: center;
+}
 .usercard-main,
 footer {
   background-color: #393c45;
@@ -38,11 +44,10 @@ footer {
 }
 .usercard-text {
   text-align: justify;
-  line-height: 1.2;
   margin: 25px;
 }
 
-.usercard-info {
+.usercard-info > p {
   display: inline-block;
   margin: 25px;
   text-align: center;
@@ -54,20 +59,22 @@ footer {
 }
 
 .btn {
+  width: 150px;
   padding: 15px 40px;
   border-radius: 30px;
-  border:none;
+  border: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .usercard-follow {
   background-color: #556598;
   color: white;
-  margin-left:25px;
-  margin-right:60px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 .usercard-message {
   background-color: #e6ebef;
   color: #393c45;
-  
 }
 .usercard-footer {
   border-bottom-left-radius: 25px;
