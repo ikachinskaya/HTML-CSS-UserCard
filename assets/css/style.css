@@ -10,7 +10,7 @@ body {
 .wrapper-usercard {
   display: inline-block;
   border-radius: 25px;
-  width: 400px;
+  width: 300px;
   margin: 30px;
   overflow: hidden;
   box-shadow: 2px 2px 5px blue;
@@ -49,15 +49,15 @@ body {
 }
 .usercard-info-column {
   display: inline-block;
-  margin: 20px;
+  margin: 10px;
 }
 .btn-container {
   text-align: center;
 }
 .btn {
   display: inline-block;
-  width: 150px;
-  padding: 15px 40px;
+  width: 110px;
+  padding: 15px;
   border-radius: 30px;
   border: none;
   overflow: hidden;
